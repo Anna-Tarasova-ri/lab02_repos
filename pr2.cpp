@@ -18,7 +18,7 @@ int main()
 	cout << "alpha = "; cin >> alpha;
 	
 	z1 = pow(cos(3.0 * Pi / 8.0 - alpha / 4.0), 2) - pow(cos(11.0 * Pi / 8.0 + alpha / 4.0), 2);
-	//z2 = (sqrt(2.0) / 2.0) * sin(alpha / 2.0);
+	z2 = (sqrt(2.0) / 2.0) * sin(alpha / 2.0);
 	
 	cout << endl;
 	cout << "z1 = " << z1 << endl;
